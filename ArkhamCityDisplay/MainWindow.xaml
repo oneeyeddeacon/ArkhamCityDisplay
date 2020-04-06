@@ -24,5 +24,6 @@
             <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="Auto" Name="PrisonerGrid">
             </Grid>
         </ScrollViewer>
+        <TextBlock HorizontalAlignment="Left" Margin="171,504,0,0" Text="0 Saved" TextWrapping="Wrap" VerticalAlignment="Top" Name="SavedPrisoners"/>
     </Grid>
 </Window>

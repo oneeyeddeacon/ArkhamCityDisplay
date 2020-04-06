@@ -229,6 +229,7 @@ namespace ArkhamCityDisplay
             }
 
             int lineCount = 1;
+            int savedCount = 0;
             for (int index = 0; index < prisonerLines.Length; index++)
             {
                 if (index == 0)
@@ -240,21 +241,31 @@ namespace ArkhamCityDisplay
                 string activeId = lineComponents[2].Trim();
                 string savedId = lineComponents[3].Trim();
 
+                bool isActive = false;
+                bool isSaved = false;
                 foreach (string storyBlock in storyBlocks)
                 {
-                    if (hasMatch(activeId, null, storyBlock) && !hasMatch(savedId, null, storyBlock))
-                    {
-                        PrisonerGrid.RowDefinitions.Add(new RowDefinition() { Height = new GridLength(ROW_HEIGHT/2) });
-                        TextBlock txt0 = new TextBlock();
-                        txt0.Text = lineComponents[0];
-                        txt0.TextWrapping = TextWrapping.Wrap;
-                        Grid.SetColumn(txt0, 0);
-                        Grid.SetRow(txt0, lineCount - 1);
-                        PrisonerGrid.Children.Add(txt0);
-                        lineCount++;
-                    }
+                    isActive = isActive || hasMatch(activeId, null, storyBlock);
+                    isSaved = isSaved || hasMatch(savedId, null, storyBlock);
+                }
+
+                if (isActive && !isSaved)
+                {
+                    PrisonerGrid.RowDefinitions.Add(new RowDefinition() { Height = new GridLength(ROW_HEIGHT / 2) });
+                    TextBlock txt0 = new TextBlock();
+                    txt0.Text = lineComponents[0];
+                    txt0.TextWrapping = TextWrapping.Wrap;
+                    Grid.SetColumn(txt0, 0);
+                    Grid.SetRow(txt0, lineCount - 1);
+                    PrisonerGrid.Children.Add(txt0);
+                    lineCount++;
+                }
+                if (isSaved)
+                {
+                    savedCount++;
                 }
             }
+            SavedPrisoners.Text = savedCount + " saved";
         }
 
         private Boolean hasMatch(string saveFileKey, string alternateSaveFileKey, string block)
