@@ -124,6 +124,7 @@ Grundy Fight	Main Story	CH4_Museum_C1_NinjasBlood
 Penguin (Museum, Dino Room)	Penguins	PickedUp_Museum_Penguin_2		
 Camera (Bowery, Across from Museum)	Breakable Cameras (Bowery)	PickedUp_OWE_Camera_11		
 Trophy (Bowery, Building Left Across from Museum)	Riddler Trophies	PickedUp_OWE_Pickup_17		
+Trophy (Wonder Tower, Collapsed West Questionmark Gel)	Riddler Trophies	PickedUp_Underworld_Pickup_17		
 Demon Seal (Wonder, Elevator)	Demon Seals	PickedUp_Underworld_DemonSeal_1		
 Globe Riddle	Riddles	PickedUp_Underworld_Riddle_2		
 Trophy (Wonder Tower, Gel East Elevator Room)	Riddler Trophies	PickedUp_Underworld_Pickup_11		
@@ -132,7 +133,7 @@ Demon Seal (Wonder, West Elevator Room)	Demon Seals	PickedUp_Underworld_DemonSea
 Demon Seal (Wonder, Wonder City Entrance)	Demon Seals	PickedUp_Underworld_DemonSeal_2		
 Demon Seal (Wonder, Wonder City Corridor)	Demon Seals	PickedUp_Underworld_DemonSeal_4		
 Demon Seal (Wonder, Wonder City Corridor)	Demon Seals	PickedUp_Underworld_DemonSeal_3		
-Demon Seal (Wonder, Winder City end of Corridor)	Demon Seals	PickedUp_Underworld_DemonSeal_5		
+Demon Seal (Wonder, Wonder City end of Corridor)	Demon Seals	PickedUp_Underworld_DemonSeal_5		
 Trophy (Wonder, Line Launch 3 Switches)	Riddler Trophies	PickedUp_Underworld_Pickup_18		
 Trophy (Wonder, Right of Corridor near Robot)	Riddler Trophies	PickedUp_Underworld_Pickup_19		
 Gotham City Times Riddle	Riddles	PickedUp_Underworld_Riddle_3		
@@ -165,10 +166,10 @@ Olympus Riddle	Riddles	PickedUp_OWB_Riddle_6
 Trophy (Amusement, Olympus)	Riddler Trophies	PickedUp_OWB_Pickup_17		
 Trophy (Amusement, Red Green Switch in front of Bane)	Riddler Trophies	PickedUp_OWB_Pickup_18		
 Balloon (Amusement, GCPD)	Balloons (Amusement)	PickedUp_OWB_Balloons_10		
-Trophy (Amusement, GCPD Hack Door)	Riddler Trophies	PickedUp_OWB_Pickup_38		
-Trophy (Amusement, GCPD Electic Batarang)	Riddler Trophies	PickedUp_OWB_Pickup_36		
-Trophy (Amusement, GCPD Switches)	Riddler Trophies	PickedUp_OWB_Pickup_35		
-Trophy (Amusement, Freeze Grenade)	Riddler Trophies	PickedUp_OWB_Pickup_37		
+Trophy (GCPD, Hack Door)	Riddler Trophies	PickedUp_OWB_Pickup_38		
+Trophy (GCPD, Electric Batarang)	Riddler Trophies	PickedUp_OWB_Pickup_36		
+Trophy (GCPD, Switches)	Riddler Trophies	PickedUp_OWB_Pickup_35		
+Trophy (GCPD, Morgue Freeze Grenade)	Riddler Trophies	PickedUp_OWB_Pickup_37		
 Balloon (Amusement, Across GCPD)	Balloons (Amusement)	PickedUp_OWB_Balloons_11		
 Trophy (Amusement, Outside GCPD Hack)	Riddler Trophies	PickedUp_OWB_Pickup_23		
 Trophy (Amusement, Roof next to GCPD)	Riddler Trophies	PickedUp_OWB_Pickup_16		
@@ -229,7 +230,7 @@ Trophy (Museum, Freeze Cell)	Riddler Trophies	PickedUp_Museum_Pickup_14
 Abramovici Riddle	Riddles	PickedUp_Museum_Riddle_5		
 Titan Container (Museum)	Bane	Museum_C2.RTitanCrate_4.Broken		
 Trophy (Museum, Gladiator Center Room)	Riddler Trophies	PickedUp_Museum_Pickup_22		
-Trophy (Museum, Gladiator Rigth Room)	Riddler Trophies	PickedUp_Museum_Pickup_9		
+Trophy (Museum, Gladiator Right Room)	Riddler Trophies	PickedUp_Museum_Pickup_9		
 Trophy (Park Row, 3 wallbounces [Get with Zsasz call])	Riddler Trophies	PickedUp_OWA_Pickup_8		
 Trophy (Park Row, dive bomb [Get with Zsasz call])	Riddler Trophies	PickedUp_OWA_Pickup_10		
 Camera (Park Row, Shelter [Get with Zsasz call])	Breakable Cameras (Park Row)	PickedUp_OWA_Camera_12		
@@ -346,7 +347,6 @@ Trophy (Wonder Tower, Collapsed West Freeze Water Batclaw)	Riddler Trophies	Pick
 Trophy (Wonder Tower, Collapsed West Corner Platform)	Riddler Trophies	PickedUp_Underworld_Pickup_15		
 Trophy (Wonder Tower, Collapsed West Hack on Wall)	Riddler Trophies	PickedUp_Underworld_Pickup_14		
 Trophy (Wonder Tower, Collapsed West Frozen on Water)	Riddler Trophies	PickedUp_Underworld_Pickup_16		
-Trophy (Wonder Tower, Collapsed West Questionmark Gel)	Riddler Trophies	PickedUp_Underworld_Pickup_17		
 Titan Contaner (Wonder Tower)	Bane	Under_A3.RTitanCrate_3.Broken		
 Trophy (Wonder Tower, Hack)	Riddler Trophies	PickedUp_Underworld_Pickup_9		
 Trophy (Wonder Tower, Collapsed South Across Door)	Riddler Trophies	PickedUp_Underworld_Pickup_3		
