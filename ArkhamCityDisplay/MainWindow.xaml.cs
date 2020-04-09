@@ -149,6 +149,7 @@ namespace ArkhamCityDisplay
 
             int lineCount = 1;
             int firstNotDone = -1;
+            int numDone = 0;
             for (int index = 0; index < routeLines.Length; index++)
             {
                 if (index == 0)
@@ -177,6 +178,7 @@ namespace ArkhamCityDisplay
                     Grid.SetRow(txt1, lineCount - 1);
                     DisplayGrid.Children.Add(txt1);
                     markedDone = true;
+                    numDone++;
                 }
                 else
                 {
@@ -190,6 +192,7 @@ namespace ArkhamCityDisplay
                             Grid.SetRow(txt1, lineCount - 1);
                             DisplayGrid.Children.Add(txt1);
                             markedDone = true;
+                            numDone++;
                             break;
                         }
                     }
@@ -207,6 +210,15 @@ namespace ArkhamCityDisplay
                 int scrollHeight = (firstNotDone - 4) * (ROW_HEIGHT);
                 GridScroll.ScrollToVerticalOffset(scrollHeight);
             }
+
+            //lineCount - 2 because the last row is "Done"
+            double percentDone = 100.0 * numDone / (lineCount-2);
+            ProgressCounter.Text = String.Format("{0:0.0}", percentDone) + "%";
+
+            string overallBlock = System.IO.File.ReadAllText(saveFile + "1");
+            Regex rx = new Regex(@"\b\d*\/400|\d*\/440\b");
+            Match match = rx.Match(overallBlock);
+            RiddleCounter.Text = match.ToString();
         }
 
         private void updatePrisonerWindow(string[] prisonerLines, string saveFile)
@@ -241,15 +253,16 @@ namespace ArkhamCityDisplay
                 string activeId = lineComponents[2].Trim();
                 string savedId = lineComponents[3].Trim();
 
-                bool isActive = false;
+                //bool isActive = false;
                 bool isSaved = false;
                 foreach (string storyBlock in storyBlocks)
                 {
-                    isActive = isActive || hasMatch(activeId, null, storyBlock);
+                    //isActive = isActive || hasMatch(activeId, null, storyBlock);
                     isSaved = isSaved || hasMatch(savedId, null, storyBlock);
                 }
 
-                if (isActive && !isSaved)
+                //if (isActive && !isSaved)
+                if (!isSaved)
                 {
                     PrisonerGrid.RowDefinitions.Add(new RowDefinition() { Height = new GridLength(ROW_HEIGHT / 2) });
                     TextBlock txt0 = new TextBlock();
