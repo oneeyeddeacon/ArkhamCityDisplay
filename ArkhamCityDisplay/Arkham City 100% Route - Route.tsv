@@ -76,7 +76,7 @@ Balloon (Amusement, Gotham Casino)	Balloons (Amusement)	PickedUp_OWB_Balloons_1
 Trophy (Amusement, 6 question mark gel)	Riddler Trophies	PickedUp_OWB_Pickup_13		
 Riddler Church	Riddler Mission	SS_Riddler_OrganScanned		
 Aaron Cash Riddle	Riddles	PickedUp_OWA_Riddle_7		
-Plant Riddle	Riddles	PickedUp_OWA_Riddle_9		
+Ivy Plant Shop Riddle	Riddles	PickedUp_OWA_Riddle_9		
 Camera (Park Row, Across from Plant Riddle)	Breakable Cameras (Park Row)	PickedUp_OWA_Camera_1		
 Tyger Vault Riddle	Riddles	PickedUp_OWA_Riddle_8		
 Jezebel Center Riddle	Riddles	PickedUp_OWE_Riddle_11		
@@ -103,7 +103,6 @@ Trophy (Bowery, Subway car)	Riddler Trophies	PickedUp_OWE_Pickup_15
 Camera (Bowery, Gotham Bank)	Breakable Cameras (Bowery)	PickedUp_OWE_Camera_9		
 Maroni Riddle	Riddles	PickedUp_OWE_Riddle_3		
 Trophy (Bowery, Gel Mine)	Riddler Trophies	PickedUp_OWE_Pickup_16		
-Trophy (Bowery, 2 far questionmarks)	Riddler Trophies	PickedUp_OWE_Pickup_21		Map this to a political prisoner
 Trophy (Bowery, 3 switches near hush body)	Riddler Trophies	PickedUp_OWE_Pickup_33		
 Hush 1	Hush	SS_Hush_Victim1_HoboConv		
 Trophy (Bowery, Remote Batarang Vent)	Riddler Trophies	PickedUp_OWE_Pickup_31		
@@ -156,10 +155,9 @@ Trophy (Park Row, Timed Gargoyle)	Riddler Trophies	PickedUp_OWA_Pickup_34
 Terror Movie Riddle	Riddles	PickedUp_OWA_Riddle_12		
 Crime Alley Riddle	Riddles	PickedUp_OWA_Riddle_13		
 Trophy (Park Row, 5 question marks)	Riddler Trophies	PickedUp_OWA_Pickup_35		
-Trophy (Park Row, Roof Wood Wall)	Riddler Trophies	PickedUp_OWA_Pickup_26		
+Trophy (Park Row, Roof Punch Wood Wall)	Riddler Trophies	PickedUp_OWA_Pickup_26		
 Trophy (Park Row, Remote Batarang Vent)	Riddler Trophies	PickedUp_OWA_Pickup_25		
 Hush 2 (next to trophy) (do zsasz call after by dent riddle)	Hush	SS_Hush_Victim2_SceneComplete		
-Trophy (Park Row, Far question mark)	Riddler Trophies	PickedUp_OWA_Pickup_27		Map this to a political prisoner
 Camera (Amusement, Next to phone Casino)	Breakable Cameras (Amusement)	PickedUp_OWB_Camera_3		
 Balloon (Amusement, Olympus)	Balloons (Amusement)	PickedUp_OWB_Balloons_2		
 Olympus Riddle	Riddles	PickedUp_OWB_Riddle_6		
@@ -241,7 +239,7 @@ Trophy (Park Row, Flashing questionmarks)	Riddler Trophies	PickedUp_OWA_Pickup_1
 Balloon (Amusement, Gotham Casino)	Balloons (Amusement)	PickedUp_OWB_Balloons_12		
 Trophy (Park Row, Freeze Nade on Water)	Riddler Trophies	PickedUp_OWA_Pickup_36		
 Trophy (Amusement, Gotham Casino Terrace)	Riddler Trophies	PickedUp_OWB_Pickup_4		
-Trophy (Amusement, Freeze Nade Rec Gun)	Riddler Trophies	PickedUp_OWB_Pickup_7		
+Trophy (Amusement, Freeze Nade Rec Gun Sphere)	Riddler Trophies	PickedUp_OWB_Pickup_7		
 Trophy (Amusement, Fly 3 switches)	Riddler Trophies	PickedUp_OWB_Pickup_6		
 Rec Gun Question Mark Riddle	Riddles	PickedUp_OWB_Riddle_1		
 Trophy (Amusement, Timed Slide)	Riddler Trophies	PickedUp_OWB_Pickup_8		
@@ -251,7 +249,7 @@ Trophy (Park Row, Hack top of church)	Riddler Trophies	PickedUp_OWA_Pickup_18
 Azrael Done	Azrael	SS_Azrael_FinalConversationFinished		
 Trophy (Park Row, Line Launch Switches Behind church)	Riddler Trophies	PickedUp_OWA_Pickup_20		
 Trophy (Park Row, City Wall Behind Church)	Riddler Trophies	PickedUp_OWA_Pickup_21		
-Trophy (Amusement, 3 Question Marks [across Olympus])	Riddler Trophies	PickedUp_OWB_Pickup_15		
+Trophy (Amusement, 3 Question Mark switches [across Olympus])	Riddler Trophies	PickedUp_OWB_Pickup_15		
 Balloon (Amusement, GCR)	Balloons (Amusement)	PickedUp_OWB_Balloons_6		
 Balloon (Amusement, City Wall)	Balloons (Amusement)	PickedUp_OWB_Balloons_9		
 Trophy (Amusement, Disrupt Mines near City Wall)	Riddler Trophies	PickedUp_OWB_Pickup_14		
@@ -267,7 +265,6 @@ Balloon (Industrial, Excavator)	Balloons (Industrial)	PickedUp_OWC_Balloons_8
 Trophy (Industrial, Alley Super Dodgems [gel])	Riddler Trophies	PickedUp_OWC_Pickup_23		
 Trophy(Industrial, Alley Super Dodgems  [hack])	Riddler Trophies	PickedUp_OWC_Pickup_24		
 Camera (Industrial, Across Super Dodgems)	Breakable Cameras (Industrial)	PickedUp_OWC_Camera_12		
-Balloon (Industrial, By Ferris Wheel)	Balloons (Industrial)	PickedUp_OWC_Balloons_4		Map this to a political prisoner
 Balloon (Industrial, Super Dodgems Roof))	Balloons (Industrial)	PickedUp_OWC_Balloons_9		
 AR Challenge 5	AR Training	ARChallenge5_Complete		
 Balloon (Industrial, Big Toy Soldier)	Balloons (Industrial)	PickedUp_OWC_Balloons_12		
@@ -377,11 +374,8 @@ Tyger Brain (Industrial)	Tyger Brains	PickedUp_OWC_CameraControl_1
 Trophy (Industrial, Dive bomb near city wall)	Riddler Trophies	PickedUp_OWC_Pickup_3		
 Trophy (Industrial, Gel Rec near dive bomb switch)	Riddler Trophies	PickedUp_OWC_Pickup_2		
 Trophy (Industrial, City Wall near Tunnels)	Riddler Trophies	PickedUp_OWC_Pickup_18		
-Trophy (Industrial, 3 wood walls ferris wheel)	Riddler Trophies	PickedUp_OWC_Pickup_7		Map this to a political prisoner
-Trophy (Industrial, Freeze Nade mine ferris wheel)	Riddler Trophies	PickedUp_OWC_Pickup_10		Map this to a political prisoner
-Trophy (Industrial, 3 fast question marks ferris wheel)	Riddler Trophies	PickedUp_OWC_Pickup_11		Map this to a political prisoner
-Teeth (Subway, Industrial entrance)	Joker Teeth	PickedUp_OWD_Teeth_2		
-Trophy (Subway, Electric Switch)	Riddler Trophies	PickedUp_OWD_Pickup_21		
+Teeth (Subway, Industrial entrance)	Joker Teeth	PickedUp_OWD_Teeth_1		
+Trophy (Subway, Electric Switch)	Riddler Trophies	PickedUp_OWD_Pickup_27		
 Teeth (Subway, After Trophy)	Joker Teeth	PickedUp_OWD_Teeth_2		
 Trophy (Subway, Line Launch)	Riddler Trophies	PickedUp_OWD_Pickup_21		
 Croc Riddle	Riddles	PickedUp_OWD_Riddle_5		
@@ -424,17 +418,13 @@ Trophy (Subway, Vent near Vicki poster)	Riddler Trophies	PickedUp_OWD_Pickup_1
 Trophy (Subway, vent gel upper station)	Riddler Trophies	PickedUp_OWD_Pickup_4		
 Trophy (Subway, Hack upper station)	Riddler Trophies	PickedUp_OWD_Pickup_2		
 Teeth (Subway, Upper station)	Joker Teeth	PickedUp_OWD_Teeth_11		
-Trophy (Bowery, Freeze Nade near Wonder Tower Entrance)	Riddler Trophies	PickedUp_OWE_Pickup_19		Map this to a political prisoner
 Hush 3 Start (near ACE)	Hush	SS_Hush_Victim3_SceneComplete		
 Puppet Riddle	Riddles	PickedUp_OWE_Riddle_8		
-Trophy (Park Row, Rec Gun Alley Door)	Riddler Trophies	PickedUp_OWA_Pickup_30		Map this to a political prisoner
-Trophy (Park Row, Rec Gun Sphere)	Riddler Trophies	PickedUp_OWA_Pickup_15		Map this to a political prisoner
 Camera (Park Row, Monarch Theater)	Breakable Cameras (Park Row)	PickedUp_OWA_Camera_4		
 Strange Riddle	Riddles	PickedUp_OWA_Riddle_11		
 AR Challenge 8	AR Training	ARChallenge8_Complete		
 Question Mark Riddle (Park Row Courthouse)	Riddles	PickedUp_OWA_Riddle_1		
 Trophy (Park Row, Switch across from courthouse)	Riddler Trophies	PickedUp_OWA_Pickup_24		
-Trophy (Park Row, West of Courthouse)	Riddler Trophies	PickedUp_OWA_Pickup_23		Map this to a political prisoner
 Mad Hatter	Mad Hatter	MadHatter_KnockedOut_Check		
 Alice in Wonderland Riddle	Riddles	PickedUp_OWA_Riddle_10		
 Hush 3 End	Hush	SS_Hush_Victim3_TrailComplete		
@@ -452,7 +442,11 @@ Two face riddle	Riddles	PickedUp_OWA_Riddle_3
 Riddler Courthouse Hostage	Riddler Mission	Riddler_Court_Hostage_Saved		
 Catwoman House Riddle	Riddles	PickedUp_OWA_Riddle_5		
 Hush Done	Hush	SS_Hush_Complete		
-Trophy (Park Row, Freeze Nade Stacked near Church )	Riddler Trophies	PickedUp_OWA_Pickup_12		
+Trophy (Park Row, Rec Gun Alley Door [political prisoner])	Riddler Trophies	PickedUp_OWA_Pickup_30		Map this to a political prisoner
+Trophy (Park Row, Rec Gun Sphere near ace [political prisoner])	Riddler Trophies	PickedUp_OWA_Pickup_15		Map this to a political prisoner
+Trophy (Park Row, West of Courthouse [political prisoner])	Riddler Trophies	PickedUp_OWA_Pickup_23		Map this to a political prisoner
+Trophy (Park Row, Far question mark [political prisoner])	Riddler Trophies	PickedUp_OWA_Pickup_27		Map this to a political prisoner
+Trophy (Park Row, Freeze Nade Stacked near Church (under deadshot 3)	Riddler Trophies	PickedUp_OWA_Pickup_12		
 Deadshot Victim 3 End	Deadshot	SS_DeadShot_Hobo3_AmmoniaScanned		
 Trophy (Amusement, City Wall near Ivy)	Riddler Trophies	PickedUp_OWB_Pickup_3		
 Ivy Container Riddle	Riddles	PickedUp_OWB_Riddle_3		
@@ -462,9 +456,13 @@ Freeze/Nora Riddle	Riddles	PickedUp_OWC_Riddle_9
 Trophy (Industrial, Near Zsasz)	Riddler Trophies	PickedUp_OWC_Pickup_17		
 News Stand Riddle	Riddles	PickedUp_OWC_Riddle_3		
 Zsasz Done	Zsasz	SS_Zsasz_Confronted		
-Realtor Riddle	Riddles	PickedUp_OWC_Riddle_8		
+Realtor Riddle (Zsasz)	Riddles	PickedUp_OWC_Riddle_8		
 Trophy (Industrial, Zsasz Electric Batarang)	Riddler Trophies	PickedUp_OWC_Pickup_39		
 Trophy (Industrial, Zsasz Side of Room)	Riddler Trophies	PickedUp_OWC_Pickup_38		
+Balloon (Industrial, By Ferris Wheel [political prisoner])	Balloons (Industrial)	PickedUp_OWC_Balloons_4		Map this to a political prisoner
+Trophy (Industrial, 3 wood walls ferris wheel [political prisoner])	Riddler Trophies	PickedUp_OWC_Pickup_7		Map this to a political prisoner
+Trophy (Industrial, Freeze Nade mine ferris wheel [political prisoner])	Riddler Trophies	PickedUp_OWC_Pickup_10		Map this to a political prisoner
+Trophy (Industrial, 3 fast question marks ferris wheel [political prisoner])	Riddler Trophies	PickedUp_OWC_Pickup_11		Map this to a political prisoner
 Trophy (Industrial, 3 switches near Subway)	Riddler Trophies	PickedUp_OWC_Pickup_20		Map this to a political prisoner
 Trophy (Industrial, Under Excavator)	Riddler Trophies	PickedUp_OWC_Pickup_21		Map this to a political prisoner
 Krank & co Riddle	Riddles	PickedUp_OWB_Riddle_10		
@@ -482,8 +480,10 @@ AR Challenge 6	AR Training	ARChallenge6_Complete
 Best Behavior Tyger Riddle	Riddles	PickedUp_OWE_Riddle_9		
 Trophy (Bowery, City Wall Bottom Left)	Riddler Trophies	PickedUp_OWE_Pickup_32		
 Camera (Bowery, Across from City Wall Trophy)	Breakable Cameras (Bowery)	PickedUp_OWE_Camera_4		
+Trophy (Bowery, Freeze Nade near Wonder Tower Entrance)	Riddler Trophies	PickedUp_OWE_Pickup_19		Map this to a political prisoner
 Trophy (Bowery, Hack Building Across Wonder Tower Entrance)	Riddler Trophies	PickedUp_OWE_Pickup_34		
 Trophy (Bowery, 6 Questionmarks under bridge)	Riddler Trophies	PickedUp_OWE_Pickup_14		
+Trophy (Bowery, 2 far questionmarks [political prisoner])	Riddler Trophies	PickedUp_OWE_Pickup_21		Map this to a political prisoner
 Trophy (Bowery, Left of Museum)	Riddler Trophies	PickedUp_OWE_Pickup_25		Map this to a political prisoner
 Trophy (Bowery, Museum Roof)	Riddler Trophies	PickedUp_OWE_Pickup_23		
 Trophy (Bowery, Back of Museum)	Riddler Trophies	PickedUp_OWE_Pickup_3		Map this to a political prisoner

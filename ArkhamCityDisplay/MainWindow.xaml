@@ -5,25 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ArkhamCityDisplay"
         mc:Ignorable="d"
-        Title="MainWindow" Height="700" Width="300">
-    <Grid Height="700" Margin="0,0,10,0">
+        Title="MainWindow" Height="900" Width="300">
+    <Grid Height="900" Margin="0,0,10,0">
 
         <TextBox HorizontalAlignment="Left" Margin="121,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"  Height="23" Name="SavePathBox"/>
         <TextBlock HorizontalAlignment="Left" Margin="17,10,0,0" Text="Save File (Full Path)" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Button Content="Start" HorizontalAlignment="Left" Margin="16,40,0,0" VerticalAlignment="Top" Width="75" Click="Start_Button_Click" Name="StartButton"/>
         <Button Content="Stop" HorizontalAlignment="Left" Margin="102,40,0,0" VerticalAlignment="Top" Width="75" Click="Stop_Button_Click" Name="StopButton" IsEnabled="False"/>
-        <ScrollViewer HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="270" Margin="5,85,0,0" VerticalScrollBarVisibility="Auto" Name="GridScroll">
+        <ScrollViewer HorizontalAlignment="Left" Height="458" VerticalAlignment="Top" Width="270" Margin="5,85,0,0" VerticalScrollBarVisibility="Auto" Name="GridScroll">
             <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="Auto" Name="DisplayGrid">
             </Grid>
         </ScrollViewer>
 
         <TextBlock Text="debug" TextWrapping="Wrap" Name="Debug" Margin="11,10,604,665"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,64,0,0" Text="Trophy/Story Route" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="17,504,0,0" Text="Active Political Prisoners" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <ScrollViewer HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="270" Margin="5,525,0,0" VerticalScrollBarVisibility="Auto" Name="PrisonerScroll">
+        <TextBlock HorizontalAlignment="Left" Margin="145,64,0,0" Text="0%" TextWrapping="Wrap" VerticalAlignment="Top" Name="ProgressCounter"/>
+        <TextBlock HorizontalAlignment="Left" Margin="207,64,0,0" Text="0/400" TextWrapping="Wrap" VerticalAlignment="Top" Name="RiddleCounter"/>
+        <TextBlock HorizontalAlignment="Left" Margin="21,573,0,0" Text="Remaining Political Prisoners" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <ScrollViewer HorizontalAlignment="Center" Height="281" VerticalAlignment="Top" Width="270" Margin="0,594,0,0" VerticalScrollBarVisibility="Auto" Name="PrisonerScroll">
             <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="Auto" Name="PrisonerGrid">
             </Grid>
         </ScrollViewer>
-        <TextBlock HorizontalAlignment="Left" Margin="171,504,0,0" Text="0 Saved" TextWrapping="Wrap" VerticalAlignment="Top" Name="SavedPrisoners"/>
+        <TextBlock HorizontalAlignment="Left" Margin="196,573,0,0" Text="0 Saved" TextWrapping="Wrap" VerticalAlignment="Top" Name="SavedPrisoners"/>
     </Grid>
 </Window>
