@@ -123,7 +123,6 @@ Grundy Fight	Main Story	CH4_Museum_C1_NinjasBlood
 Penguin (Museum, Dino Room)	Penguins	PickedUp_Museum_Penguin_2		
 Camera (Bowery, Across from Museum)	Breakable Cameras (Bowery)	PickedUp_OWE_Camera_11		
 Trophy (Bowery, Building Left Across from Museum)	Riddler Trophies	PickedUp_OWE_Pickup_17		
-Trophy (Wonder Tower, Collapsed West Questionmark Gel)	Riddler Trophies	PickedUp_Underworld_Pickup_17		
 Demon Seal (Wonder, Elevator)	Demon Seals	PickedUp_Underworld_DemonSeal_1		
 Globe Riddle	Riddles	PickedUp_Underworld_Riddle_2		
 Trophy (Wonder Tower, Gel East Elevator Room)	Riddler Trophies	PickedUp_Underworld_Pickup_11		
@@ -344,6 +343,7 @@ Trophy (Wonder Tower, Collapsed West Freeze Water Batclaw)	Riddler Trophies	Pick
 Trophy (Wonder Tower, Collapsed West Corner Platform)	Riddler Trophies	PickedUp_Underworld_Pickup_15		
 Trophy (Wonder Tower, Collapsed West Hack on Wall)	Riddler Trophies	PickedUp_Underworld_Pickup_14		
 Trophy (Wonder Tower, Collapsed West Frozen on Water)	Riddler Trophies	PickedUp_Underworld_Pickup_16		
+Trophy (Wonder Tower, Collapsed West Questionmark Gel)	Riddler Trophies	PickedUp_Underworld_Pickup_17		
 Titan Contaner (Wonder Tower)	Bane	Under_A3.RTitanCrate_3.Broken		
 Trophy (Wonder Tower, Hack)	Riddler Trophies	PickedUp_Underworld_Pickup_9		
 Trophy (Wonder Tower, Collapsed South Across Door)	Riddler Trophies	PickedUp_Underworld_Pickup_3		
