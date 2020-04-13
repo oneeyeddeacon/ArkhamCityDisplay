@@ -27,6 +27,7 @@ namespace ArkhamCityDisplay
     {
         BackgroundWorker updateWorker;
         private const int ROW_HEIGHT = 40;
+        private volatile int refreshRate = 1000;
 
         public MainWindow()
         {
@@ -76,7 +77,7 @@ namespace ArkhamCityDisplay
             while (!worker.CancellationPending)
             {
                 worker.ReportProgress(0, "Dummy");
-                Thread.Sleep(1000);
+                Thread.Sleep(refreshRate);
             }
         }
 
@@ -85,6 +86,10 @@ namespace ArkhamCityDisplay
             try
             {
                 string routepath = "Arkham City 100% Route - Route.tsv";
+                if (CameraAtBottom.IsChecked == true)
+                {
+                    routepath = "Arkham City 100% Route - Route (Cameras and Balloons at Bottom).tsv";
+                }
                 string prisonerpath = "Arkham City 100% Route - Political Prisoners.tsv";
                 string saveFile = SavePathBox.Text;
                 if (string.IsNullOrEmpty(saveFile))
@@ -107,6 +112,8 @@ namespace ArkhamCityDisplay
                 stopWatch.Stop();
                 long time = stopWatch.ElapsedMilliseconds;
                 Debug.Text = time.ToString();
+
+                refreshRate = getRefreshRate();
             }
             catch (Exception ex)
             {
@@ -293,6 +300,23 @@ namespace ArkhamCityDisplay
                 return alternateCollectibleMatches.Count > 0;
             }
             return firstMatch;
+        }
+
+        private int getRefreshRate()
+        {
+            if (OneSecond.IsChecked == true)
+            {
+                return 1000;
+            }
+            if (TwoSeconds.IsChecked == true)
+            {
+                return 2000;
+            }
+            if (TenSeconds.IsChecked == true)
+            {
+                return 10000;
+            }
+            return 1000;
         }
     }
 }

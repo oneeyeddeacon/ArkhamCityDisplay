@@ -92,7 +92,7 @@ Demon Seal (Wonder, West Elevator Room)	Demon Seals	PickedUp_Underworld_DemonSea
 Demon Seal (Wonder, Wonder City Entrance)	Demon Seals	PickedUp_Underworld_DemonSeal_2		
 Demon Seal (Wonder, Wonder City Corridor)	Demon Seals	PickedUp_Underworld_DemonSeal_4		
 Demon Seal (Wonder, Wonder City Corridor)	Demon Seals	PickedUp_Underworld_DemonSeal_3		
-Demon Seal (Wonder, Winder City end of Corridor)	Demon Seals	PickedUp_Underworld_DemonSeal_5		
+Demon Seal (Wonder, Wonder City end of Corridor)	Demon Seals	PickedUp_Underworld_DemonSeal_5		
 Trophy (Wonder, Line Launch 3 Switches)	Riddler Trophies	PickedUp_Underworld_Pickup_18		
 Trophy (Wonder, Right of Corridor near Robot)	Riddler Trophies	PickedUp_Underworld_Pickup_19		
 Gotham City Times Riddle	Riddles	PickedUp_Underworld_Riddle_3		
@@ -119,10 +119,10 @@ Hush 2 (next to trophy) (do zsasz call after by dent riddle)	Hush	SS_Hush_Victim
 Olympus Riddle	Riddles	PickedUp_OWB_Riddle_6		
 Trophy (Amusement, Olympus)	Riddler Trophies	PickedUp_OWB_Pickup_17		
 Trophy (Amusement, Red Green Switch in front of Bane)	Riddler Trophies	PickedUp_OWB_Pickup_18		
-Trophy (Amusement, in GCPD Hack Door)	Riddler Trophies	PickedUp_OWB_Pickup_38		
-Trophy (Amusement, in GCPD Electic Batarang)	Riddler Trophies	PickedUp_OWB_Pickup_36		
-Trophy (Amusement, in GCPD Switches)	Riddler Trophies	PickedUp_OWB_Pickup_35		
-Trophy (Amusement, in GCPD Freeze Grenade)	Riddler Trophies	PickedUp_OWB_Pickup_37		
+Trophy (GCPD, Hack Door)	Riddler Trophies	PickedUp_OWB_Pickup_38		
+Trophy (GCPD, Electric Batarang)	Riddler Trophies	PickedUp_OWB_Pickup_36		
+Trophy (GCPD, Switches)	Riddler Trophies	PickedUp_OWB_Pickup_35		
+Trophy (GCPD, Morgue Freeze Grenade)	Riddler Trophies	PickedUp_OWB_Pickup_37		
 Trophy (Amusement, Outside GCPD Hack)	Riddler Trophies	PickedUp_OWB_Pickup_23		
 Trophy (Amusement, Roof next to GCPD)	Riddler Trophies	PickedUp_OWB_Pickup_16		
 Circus Riddle	Riddles	PickedUp_OWB_Riddle_4		
@@ -170,7 +170,7 @@ Trophy (Museum, Freeze Cell)	Riddler Trophies	PickedUp_Museum_Pickup_14
 Abramovici Riddle	Riddles	PickedUp_Museum_Riddle_5		
 Titan Container (Museum)	Bane	Museum_C2.RTitanCrate_4.Broken		
 Trophy (Museum, Gladiator Center Room)	Riddler Trophies	PickedUp_Museum_Pickup_22		
-Trophy (Museum, Gladiator Rigth Room)	Riddler Trophies	PickedUp_Museum_Pickup_9		
+Trophy (Museum, Gladiator Right Room)	Riddler Trophies	PickedUp_Museum_Pickup_9		
 Trophy (Park Row, 3 wallbounces [Get with Zsasz call])	Riddler Trophies	PickedUp_OWA_Pickup_8		
 Trophy (Park Row, dive bomb [Get with Zsasz call])	Riddler Trophies	PickedUp_OWA_Pickup_10		
 Trophy (Park Row, In Shelter [Get with Zsasz call])	Riddler Trophies	PickedUp_OWA_Pickup_13		
@@ -487,6 +487,21 @@ Camera (Bowery, City Wall Near Quincy Sharp)	Breakable Cameras (Bowery)	PickedUp
 Camera (Bowery, Gotham Bank  [with zsasz call])	Breakable Cameras (Bowery)	PickedUp_OWE_Camera_12		
 Camera (Bowery, Across from Back of Museum)	Breakable Cameras (Bowery)	PickedUp_OWE_Camera_1		
 Camera (Bowery, Across from City Wall Trophy)	Breakable Cameras (Bowery)	PickedUp_OWE_Camera_4		
+(Industrial, Near Subway Entrance)	Political Prisoner	ArkhamBullyOWRC3_Saved		
+(Industrial, Ferris Wheel)	Political Prisoner	ArkhamBullyOWRC2a_Saved		
+(Industrial, Gotham Hardware [near city wall])	Political Prisoner	ArkhamBullyOWRC1a_Saved		
+(Industrial, North near ferris wheel)	Political Prisoner	ArkhamBullyOWRC2b_Saved		
+(Industrial, Near Water across Hot Dog)	Political Prisoner	ArkhamBullyOWRC1b_Saved		
+(Park Row, Narrow Alley near City Wall)	Political Prisoner	ArkhamBullyOWA7b_Saved		
+(Park Row, Near Ace)	Political Prisoner	ArkhamBullyOWA8_Saved		
+(Park Row, Between Courthouse and church)	Political Prisoner	ArkhamBullyOWA7a_Saved		
+(Park Row, South West of courthouse)	Political Prisoner	ArkhamBullyOWR3_Saved		
+(Park Row, Near Church)	Political Prisoner	ArkhamBullyOWA7c_Saved		
+(Bowery, Behind Museum)	Political Prisoner	ArkhamBullyOWE1a_Saved		
+(Bowery, Near Wonder Tower Entrance)	Political Prisoner	ArkhamBullyOWRE1_Saved		
+(Bowery, Middle)	Political Prisoner	ArkhamBullyOWE4_Saved		
+(Bowery, Left of Museum)	Political Prisoner	ArkhamBullyOWE5_Saved		
+(Bowery, Back Right of Museum)	Political Prisoner	ArkhamBullyOWE1b_Saved		
 Trophy (Bowery, 3 switches Near Riddler)	Riddler Trophies	PickedUp_OWE_Pickup_2		
 Trophy (Bowery, Right before Riddler)	Riddler Trophies	PickedUp_OWE_Pickup_7		
 Riddler Done	Riddler Mission	RiddlerBeaten		

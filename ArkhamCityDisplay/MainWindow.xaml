@@ -12,20 +12,25 @@
         <TextBlock HorizontalAlignment="Left" Margin="17,10,0,0" Text="Save File (Full Path)" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Button Content="Start" HorizontalAlignment="Left" Margin="16,40,0,0" VerticalAlignment="Top" Width="75" Click="Start_Button_Click" Name="StartButton"/>
         <Button Content="Stop" HorizontalAlignment="Left" Margin="102,40,0,0" VerticalAlignment="Top" Width="75" Click="Stop_Button_Click" Name="StopButton" IsEnabled="False"/>
-        <ScrollViewer HorizontalAlignment="Left" Height="458" VerticalAlignment="Top" Width="270" Margin="5,85,0,0" VerticalScrollBarVisibility="Auto" Name="GridScroll">
+        <ScrollViewer HorizontalAlignment="Left" Height="433" VerticalAlignment="Top" Width="270" Margin="5,131,0,0" VerticalScrollBarVisibility="Auto" Name="GridScroll">
             <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="Auto" Name="DisplayGrid">
             </Grid>
         </ScrollViewer>
 
         <TextBlock Text="debug" TextWrapping="Wrap" Name="Debug" Margin="11,10,604,665"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,64,0,0" Text="Trophy/Story Route" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="145,64,0,0" Text="0%" TextWrapping="Wrap" VerticalAlignment="Top" Name="ProgressCounter"/>
-        <TextBlock HorizontalAlignment="Left" Margin="207,64,0,0" Text="0/400" TextWrapping="Wrap" VerticalAlignment="Top" Name="RiddleCounter"/>
-        <TextBlock HorizontalAlignment="Left" Margin="21,573,0,0" Text="Remaining Political Prisoners" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <ScrollViewer HorizontalAlignment="Center" Height="281" VerticalAlignment="Top" Width="270" Margin="0,594,0,0" VerticalScrollBarVisibility="Auto" Name="PrisonerScroll">
+        <TextBlock HorizontalAlignment="Left" Margin="10,110,0,0" Text="Trophy/Story Route" TextWrapping="Wrap" VerticalAlignment="Top" Height="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="145,110,0,0" Text="0%" TextWrapping="Wrap" VerticalAlignment="Top" Name="ProgressCounter" Height="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="207,110,0,0" Text="0/400" TextWrapping="Wrap" VerticalAlignment="Top" Name="RiddleCounter" Height="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="21,584,0,0" Text="Remaining Political Prisoners" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <ScrollViewer HorizontalAlignment="Center" Height="269" VerticalAlignment="Top" Width="270" Margin="0,606,0,0" VerticalScrollBarVisibility="Auto" Name="PrisonerScroll">
             <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="Auto" Name="PrisonerGrid">
             </Grid>
         </ScrollViewer>
-        <TextBlock HorizontalAlignment="Left" Margin="196,573,0,0" Text="0 Saved" TextWrapping="Wrap" VerticalAlignment="Top" Name="SavedPrisoners"/>
+        <TextBlock HorizontalAlignment="Left" Margin="196,584,0,0" Text="0 Saved" TextWrapping="Wrap" VerticalAlignment="Top" Name="SavedPrisoners"/>
+        <RadioButton Content="1" HorizontalAlignment="Left" Margin="152,90,0,0" VerticalAlignment="Top" Name="OneSecond" GroupName="RefreshRate" IsChecked="True"/>
+        <RadioButton Content="2" HorizontalAlignment="Left" Margin="184,90,0,0" VerticalAlignment="Top" Name="TwoSeconds" GroupName="RefreshRate"/>
+        <RadioButton Content="10" HorizontalAlignment="Left" Margin="218,90,0,0" VerticalAlignment="Top" Name="TenSeconds" GroupName="RefreshRate"/>
+        <TextBlock HorizontalAlignment="Left" Margin="11,88,0,0" Text="Refresh Rate (seconds)" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <CheckBox Content="Cameras and Balloons at Bottom" HorizontalAlignment="Left" Margin="11,68,0,0" VerticalAlignment="Top" FlowDirection="RightToLeft" Name="CameraAtBottom"/>
     </Grid>
 </Window>

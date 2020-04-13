@@ -14,6 +14,9 @@
     <None Update="Arkham City 100%25 Route - Political Prisoners.tsv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Arkham City 100%25 Route - Route %28Cameras and Balloons at Bottom%29.tsv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Arkham City 100%25 Route - Route.tsv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
