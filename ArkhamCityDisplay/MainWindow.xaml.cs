@@ -141,19 +141,19 @@ namespace ArkhamCityDisplay
             DisplayGrid.ColumnDefinitions.Add(new ColumnDefinition() { Width = new GridLength(210) });
             DisplayGrid.ColumnDefinitions.Add(new ColumnDefinition() { Width = new GridLength(40) });
 
-            //Collectibles are in the 2nd block;
-            string collectiblesBlock = System.IO.File.ReadAllText(saveFile + "2");
-            int saveFileSuffix = 3;
+            StringBuilder builder = new StringBuilder();
+            //Collectibles start on the 2nd block;
+            int saveFileSuffix = 2;
 
-            List<String> storyBlocks = new List<String>();
             string filename = saveFile + saveFileSuffix;
             while (File.Exists(filename))
             {
-                storyBlocks.Add(System.IO.File.ReadAllText(filename));
+                builder.Append(System.IO.File.ReadAllText(filename));
                 saveFileSuffix++;
                 filename = saveFile + saveFileSuffix;
             }
 
+            string uncompressedSaveFile = builder.ToString();
             int lineCount = 1;
             int firstNotDone = -1;
             int numDone = 0;
@@ -177,7 +177,7 @@ namespace ArkhamCityDisplay
                 string saveFileKey = lineComponents[2].Trim();
                 string alternateSaveFileKey = lineComponents[3].Trim();
                 bool markedDone = false;
-                if (!String.IsNullOrEmpty(saveFileKey) && hasMatch(saveFileKey, alternateSaveFileKey, collectiblesBlock))
+                if (!String.IsNullOrEmpty(saveFileKey) && hasMatch(saveFileKey, alternateSaveFileKey, uncompressedSaveFile))
                 {
                     TextBlock txt1 = new TextBlock();
                     txt1.Text = "Done";
@@ -186,23 +186,6 @@ namespace ArkhamCityDisplay
                     DisplayGrid.Children.Add(txt1);
                     markedDone = true;
                     numDone++;
-                }
-                else
-                {
-                    foreach (string storyBlock in storyBlocks)
-                    {
-                        if (!String.IsNullOrEmpty(saveFileKey) && hasMatch(saveFileKey, alternateSaveFileKey, storyBlock))
-                        {
-                            TextBlock txt1 = new TextBlock();
-                            txt1.Text = "Done";
-                            Grid.SetColumn(txt1, 1);
-                            Grid.SetRow(txt1, lineCount - 1);
-                            DisplayGrid.Children.Add(txt1);
-                            markedDone = true;
-                            numDone++;
-                            break;
-                        }
-                    }
                 }
 
                 if (firstNotDone == -1 && !markedDone)
